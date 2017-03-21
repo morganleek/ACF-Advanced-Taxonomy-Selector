@@ -140,7 +140,7 @@ class acf_field_advanced_taxonomy_selector extends acf_field {
 					'type'		=>	'select',
 					'name'		=>	'fields['.$key.'][post_type]',
 					'value'		=>	$field['post_type'],
-					'choices'   =>  acfatspost_types_array()
+					'choices'   =>  acfats_post_types_array()
 				));
 
 				?>
